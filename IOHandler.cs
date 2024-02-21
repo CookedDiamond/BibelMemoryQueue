@@ -12,8 +12,9 @@ namespace BibelMemoryQueue
 
 		public static void PrintNode(VerseNode node)
 		{
-			Console.WriteLine(node.Passage + "\n");
-			Console.WriteLine(node.Content + "\n");
+			PrintPassage(node);
+			Console.WriteLine();
+			PrintContent(node);
 		}
 
 		public static void PrintPassage(VerseNode node)
@@ -74,9 +75,18 @@ namespace BibelMemoryQueue
 			HandleAfterVerse(node, queue);
 		}
 
+		public static void ListAllPassages(PriorityQueue queue)
+		{
+			foreach(var node in queue.Verses)
+			{
+				PrintNode(node);
+				Console.Write("\n\n");
+			}
+		}
+
 		public static void HandleInit(PriorityQueue queue)
 		{
-			Console.WriteLine("Type 'n' for new verse, 'r' to reset list, nothing to memory");
+			Console.WriteLine("Type 'n' for new verse, 'r' to reset list, 'la' to list all passages, nothing to memory");
 			string input = Console.ReadLine();
 			if (input == "n")
 			{
@@ -91,6 +101,11 @@ namespace BibelMemoryQueue
 				SaveHandler.ResetSave();
                 HandleInit(new PriorityQueue());
 
+            }
+			if (input == "la")
+			{
+				ListAllPassages(queue);
+                HandleInit(queue);
             }
 			
 		}

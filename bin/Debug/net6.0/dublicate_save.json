@@ -1,0 +1,24 @@
+{
+  "Verses": [
+    {
+      "Passage": "hiii TESTTESTTEST",
+      "Content": "hello god i love you!",
+      "WasChosenLast": true,
+      "AnswerHistory": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "LastRight": "2024-02-21T15:44:06.4855715+01:00"
+    }
+  ]
+}
