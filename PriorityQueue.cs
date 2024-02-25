@@ -8,8 +8,10 @@ namespace BibelMemoryQueue
 {
 
 	[Serializable]
-	public class PriorityQueue
-	{
+	public class PriorityQueue {
+		private static readonly float RANDOM_VERSE_CHANCE = 0.2f;
+
+
 		public List<VerseNode> Verses { get; set; }
 
 		public PriorityQueue()
@@ -24,6 +26,10 @@ namespace BibelMemoryQueue
 
 		public VerseNode GetNext()
 		{
+			if (Random.Shared.NextDouble() < RANDOM_VERSE_CHANCE) {
+				return GetRandom();
+			}
+
 			Verses = Verses.OrderBy(n => n.GetPriority()).ToList();
 
 			var node = Verses.First();
@@ -34,6 +40,12 @@ namespace BibelMemoryQueue
 			}
 
 			return node;
+		}
+
+		public VerseNode GetRandom() {
+			int random = Random.Shared.Next(0, Verses.Count);
+			Console.Write("(selected by random) ");
+			return Verses[random];
 		}
 
 		public void RemoveNode(VerseNode node) {

@@ -1,50 +1,78 @@
 {
   "Verses": [
     {
-      "Passage": "Spr\u00FCche 3,5-6",
-      "Content": "Verlass dich nicht auf deinen eigenen Verstand, sondern vertraue voll und ganz dem HERRN! Denke bei jedem Schritt an ihn; er zeigt dir den richtigen Weg und kr\u00F6nt dein Handeln mit Erfolg.",
+      "Passage": "Jesaja 41,10",
+      "Content": "F\u00FCrchte dich nicht, denn ich stehe dir bei; hab keine Angst, denn ich bin dein Gott! Ich mache dich stark, ich helfe dir, mit meiner siegreichen Hand besch\u00FCtze ich dich!",
       "WasChosenLast": true,
       "AnswerHistory": [
         false,
-        false
+        true,
+        false,
+        false,
+        true,
+        true
       ],
-      "LastRight": "2024-02-21T15:47:28.7556599+01:00"
+      "LastRight": "2024-02-25T15:24:02.1908025+01:00"
     },
     {
-      "Passage": "Hebr\u00E4er 12,14",
-      "Content": "Setzt alles daran, mit jedem Menschen Frieden zu haben und so zu leben, wie es Gott gef\u00E4llt. Sonst werdet ihr den Herrn niemals sehen.",
+      "Passage": "Spr\u00FCche 3,5-6",
+      "Content": "Verlass dich nicht auf deinen eigenen Verstand, sondern vertraue voll und ganz dem HERRN! Denke bei jedem Schritt an ihn; er zeigt dir den richtigen Weg und kr\u00F6nt dein Handeln mit Erfolg.",
       "WasChosenLast": false,
       "AnswerHistory": [
-        false
+        false,
+        false,
+        true,
+        true
       ],
-      "LastRight": "2024-02-21T15:50:40.5595356+01:00"
-    },
-    {
-      "Passage": "Matth\u00E4us 7,1-2",
-      "Content": "Urteilt nicht \u00FCber andere, damit Gott euch nicht verurteilt. Denn so wie ihr jetzt andere richtet, werdet auch ihr gerichtet werden. Und mit dem Ma\u00DFstab, den ihr an andere anlegt, werdet ihr selbst gemessen werden.",
-      "WasChosenLast": false,
-      "AnswerHistory": [
-        false
-      ],
-      "LastRight": "2024-02-21T15:52:42.9506202+01:00"
+      "LastRight": "2024-02-25T15:28:37.1749632+01:00"
     },
     {
       "Passage": "Psalm 42,6",
       "Content": "Warum nur bin ich so traurig? Warum ist mein Herz so schwer? Auf Gott will ich hoffen, denn ich wei\u00DF: Ich werde ihm wieder danken. Er ist mein Gott, er wird mir beistehen!",
       "WasChosenLast": false,
       "AnswerHistory": [
+        true,
+        false,
         true
       ],
-      "LastRight": "2024-02-21T15:46:18.1426176+01:00"
+      "LastRight": "2024-02-25T15:23:39.8191464+01:00"
     },
     {
-      "Passage": "Jesaja 41,10",
-      "Content": "F\u00FCrchte dich nicht, denn ich stehe dir bei; hab keine Angst, denn ich bin dein Gott! Ich mache dich stark, ich helfe dir, mit meiner siegreichen Hand besch\u00FCtze ich dich!",
+      "Passage": "Hebr\u00E4er 12,14",
+      "Content": "Setzt alles daran, mit jedem Menschen Frieden zu haben und so zu leben, wie es Gott gef\u00E4llt. Sonst werdet ihr den Herrn niemals sehen.",
       "WasChosenLast": false,
       "AnswerHistory": [
-        false
+        false,
+        false,
+        false,
+        false,
+        true,
+        true
       ],
-      "LastRight": "2024-02-21T15:54:15.1228237+01:00"
+      "LastRight": "2024-02-25T15:25:29.3195531+01:00"
+    },
+    {
+      "Passage": "R\u00F6mer 8,31",
+      "Content": "Was kann man dazu noch sagen? Wenn Gott f\u00FCr uns ist, wer kann dann gegen uns sein?",
+      "WasChosenLast": false,
+      "AnswerHistory": [
+        true
+      ],
+      "LastRight": "2024-02-25T13:41:13.2848236+01:00"
+    },
+    {
+      "Passage": "Matth\u00E4us 7,1-2",
+      "Content": "Urteilt nicht \u00FCber andere, damit Gott euch nicht verurteilt. Denn so wie ihr jetzt andere richtet, werdet auch ihr gerichtet werden. Und mit dem Ma\u00DFstab, den ihr an andere anlegt, werdet ihr selbst gemessen werden.",
+      "WasChosenLast": false,
+      "AnswerHistory": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "LastRight": "2024-02-25T15:29:38.4764495+01:00"
     }
   ]
 }
